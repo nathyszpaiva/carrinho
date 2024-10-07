@@ -1,0 +1,234 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Estilo do header */
+header {
+    background-color: #2980b9; /* Azul mais escuro */
+    color: white;
+    padding: 20px 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.logo {
+    width: 100px;
+    vertical-align: middle;
+    float: left;
+}
+
+h1 {
+    margin: 0;
+}
+
+/* Menu de navegação */
+nav {
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s, transform 0.3s;
+}
+
+nav ul li a:hover {
+    color: #d1d1d1;
+    transform: translateY(-2px);
+}
+
+.botao-cadastrar {
+    background-color: #3498db; /* Azul neutro */
+    padding: 5px 15px;
+    border-radius: 5px;
+    color: white;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.botao-cadastrar:hover {
+    background-color: #2980b9; /* Azul mais escuro ao passar o mouse */
+    transform: translateY(-2px);
+}
+
+/* Estilo do main */
+main {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+}
+
+/* Estiliza a tabela do carrinho */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+/* Estiliza o input de quantidade */
+input.quantidade {
+    width: 50px;
+    padding: 5px;
+    text-align: center;
+}
+
+/* Estiliza o botão de remover */
+button.remover-produto {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+button.remover-produto:hover {
+    background-color: #c0392b;
+    transform: translateY(-2px);
+}
+
+/* Estiliza o total final */
+.total-final {
+    text-align: right;
+    margin-top: 20px;
+}
+
+.total-final h3 {
+    color: #333;
+}
+
+#total-final {
+    color: #e74c3c;
+}
+
+/* Botão finalizar compra */
+.finalizar-compra {
+    background-color: #2ecc71;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.finalizar-compra:hover {
+    background-color: #27ae60;
+    transform: translateY(-2px);
+}
+
+/* Estilo geral do footer */
+footer {
+    background-color: #2980b9;
+    color: white;
+    padding: 40px 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-section {
+    flex-basis: 23%;
+    margin-bottom: 20px;
+}
+
+.footer-section h4 {
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.footer-section p, .footer-section ul {
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.footer-section ul {
+    list-style-type: none;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.footer-section ul li a:hover {
+    color: #d1d1d1;
+    transform: translateY(-2px);
+}
+
+.social-links a {
+    display: inline-block;
+    margin-right: 10px;
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.social-links a:hover {
+    color: #d1d1d1;
+    transform: translateY(-2px);
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 0;
+    border-top: 1px solid #ffffff;
+    font-size: 14px;
+}
+
+.footer-bottom p {
+    margin: 0;
+}
+
+.logo{
+    width: 70px;
+}
